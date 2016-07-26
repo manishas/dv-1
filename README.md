@@ -1,4 +1,4 @@
-# Deploy Visualization Test
+# Deploy Visualization Testing
 Shows visually the services being deployed in real time to different environments using Shippable pipelines.
 
 Works with [Box][1], a cron  application.
