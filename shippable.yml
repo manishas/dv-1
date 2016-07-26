@@ -2,7 +2,7 @@ language: none
 
 build:
   ci:
-    - export IMAGE_NAME=ttrahan/dv
+    - export IMAGE_NAME=manishas/dv
     - ./build.sh
 
   post_ci:
@@ -10,7 +10,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: ttrahan-dh
+    - integrationName: dh-manishas
       type: docker
       branches:
         only:
