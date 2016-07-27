@@ -2,7 +2,7 @@ language: none
 
 build:
   ci:
-    - export IMAGE_NAME=manishas/dv
+    - export IMAGE_NAME=manishas/dv-1
     - ./build.sh
 
   post_ci:
